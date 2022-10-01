@@ -1,9 +1,18 @@
+import numpy as np
 import scipy.io as scio
-import matplotlib
+from tqdm import tqdm
 
-dataFile = 'Data\\Data1.mat'
-data = scio.loadmat(dataFile)
+# small_dataset = np.zeros((100, 10001, 5))
+# for i in tqdm(range(100)):
+#     file_name = f'Data\\Data{i+1}.mat'
+#     data = scio.loadmat(file_name)['Data']
+#     small_dataset[i] = data
+#
+#
+# np.savez_compressed('small_dataset.npz', small_dataset)
+#
+# print("end test")
 
-
-
-print("end test")
+small_dataset = np.load('small_dataset.npz')['arr_0']
+first_data = small_dataset[0]
+print("ff")

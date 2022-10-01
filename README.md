@@ -22,3 +22,8 @@ git add --all
 git commit -m "update"
 git push
 ```
+
+```
+read data
+small_dataset = np.load('small_dataset.npz')['arr_0']
+```
