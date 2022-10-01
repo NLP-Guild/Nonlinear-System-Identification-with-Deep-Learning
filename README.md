@@ -15,3 +15,9 @@ venv/Script/activate
 
 pip install -r requirements.txt
 ```
+
+```
+git add --all
+git commit -m "update"
+git push
+```
