@@ -15,4 +15,7 @@ from tqdm import tqdm
 
 small_dataset = np.load('small_dataset.npz')['arr_0']
 first_data = small_dataset[0]
+print(first_data)
+print(first_data.shape)
+print(small_dataset.shape)
 print("ff")
