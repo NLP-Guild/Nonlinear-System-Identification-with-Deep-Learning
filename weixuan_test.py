@@ -1,5 +1,5 @@
 import numpy as np
-import scipy.io as scio
+# import scipy.io as scio
 from tqdm import tqdm
 
 # small_dataset = np.zeros((100, 10001, 5))

@@ -1,2 +1,4 @@
 torch==1.12.1
 git+https://github.com/leoxiang66/transformer-implementation-pytorch.git
+numpy==1.21.6
+tqdm==4.64.1
