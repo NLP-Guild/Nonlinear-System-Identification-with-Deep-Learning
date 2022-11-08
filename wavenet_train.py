@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    from supervised_learning.models.wavenet import WaveNet, WaveNetForClassification
+    from models import WaveNet, WaveNetForClassification
     from torchinfo import summary
     import torch
     a = WaveNet(5,7,7,500)

@@ -1,1 +1,2 @@
 from .transformer_based import TransformerForRegression
+from .wavenet import WaveNet,WaveNetForClassification
