@@ -1,4 +1,4 @@
-from models__ import TransformerForRegression
+from models import TransformerForRegression
 import numpy as np
 import torch
 import torch.nn as nn
